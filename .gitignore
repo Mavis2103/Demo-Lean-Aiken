@@ -1,0 +1,17 @@
+# Aiken compilation artifacts
+artifacts/
+# Aiken's project working directory
+build/
+# Aiken's default documentation export
+docs/
+plutus.json
+plutus.ts
+aiken.lock
+**/.vscode/
+
+**/*.log
+.envrc
+*.env
+venv/
+.github/**/*.md
+.venv
