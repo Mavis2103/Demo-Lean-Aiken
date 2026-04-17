@@ -1,6 +1,6 @@
 name = "demo"
 version = "0.1.0"
-defaultTargets = ["demo"]
+defaultTargets = ["demo", "Demo"]
 
 [[lean_lib]]
 name = "Demo"
@@ -17,4 +17,9 @@ rev = "main"
 [[require]]
 name = "PlutusCore"
 git = "https://github.com/input-output-hk/PlutusCoreBlaster"
+rev = "main"
+
+[[require]]
+name = "CardanoLedgerApi"
+git = "https://github.com/input-output-hk/CardanoLedgerApiBlaster"
 rev = "main"
